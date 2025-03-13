@@ -3,7 +3,7 @@ import "../css/Footer.css";
 
 function Footer() {
   const handleClick = function () {
-    window.open("https://shalu-ambasta.vercel.app/", "_blank", "noopener");
+    window.open("https://cdntg.vercel.app/", "_blank", "noopener");
   };
 
   return (
@@ -13,7 +13,7 @@ function Footer() {
           Made with ReactJS <i className="f__text f__heart__symbol">&#10084;</i>{" "}
           by{" "}
           <span className="f__text dev__name nowrap" onClick={handleClick}>
-            Shalu Ambasta
+            Hojiev Makhmud
           </span>
         </p>
       </div>
